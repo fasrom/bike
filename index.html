@@ -1,0 +1,435 @@
+﻿<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>Bike</title>
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/style.css" />
+	<!--ПІДКЛЮЧАЄМО ШРИФТИ-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,200;1,400&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- Кодировка страницы -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<div class="wraper">
+		<header class="header" id="header">
+			<div class="container">
+				<div class="header__body">
+					<div class="header__logo" data-scroll="#intro">
+						<a href="#"><img src="img/intro/logo_header.png" alt=""></a>
+					</div>
+					<nav class="header__menu" id="nav">
+						<a href="#" class="header__link" data-scroll="#about-us">about us</a>
+						<a href="#" class="header__link" data-scroll="#work">work</a>
+						<a href="#" class="header__link" data-scroll="#team">team</a>
+						<a href="#" class="header__link" data-scroll="#contact">contact</a>
+					</nav>
+					<button class="burger" id="navToggle">
+						<span>menu</span>
+					</button>
+				</div>
+			</div>
+		</header>
+		<div class="intro" id="intro">
+			<div class="intro__row ibg">
+				<img src="img/intro/bg_2.jpg" alt="">
+			</div>
+
+		</div>
+		<section class="generation" id="about-us">
+			<div class="container">
+				<div class="generation__body">
+					<div class="generation__logo">
+						<img src="img/logo/generation.png" alt="">
+					</div>
+					<h3 class="generation__title">A NEW GENERATION OF VINTAGE BIKE</h3>
+					<div class="generation__text">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+							industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+							and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+							the leap into electronic typesetting, remaining essentially unchanged.</p>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!--generation-->
+
+		<!---->
+		<section class="brends" id="work">
+			<div class="brends__row">
+
+				<div class="brends__column big">
+
+					<div class="brends__image ">
+						<img src="img/brends/brends_bg_1.png" alt="">
+					</div>
+
+
+					<div class="brends__logo">
+						<a href="#">
+							<img src="img/brends/logo/brends_logo_1.png" alt="">
+						</a>
+					</div>
+				</div>
+
+
+				<div class="brends__column little">
+					<div class="content">
+						<div class="content__icons">
+							<img src="img/brends/content/content_icons_1.png" alt="">
+						</div>
+						<h4 class="content__title">vintage Oliva</h4>
+						<div class="content__text">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+								been
+								the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+								galley
+								of type and scrambled it to make a type specimen book. It has survived.</p>
+						</div>
+					</div>
+
+					<div class="content__image">
+						<img src="img/brends/brends_bg_2.png" alt="">
+
+					</div>
+				</div>
+
+
+
+			</div>
+			<div class="brends__row">
+
+				<div class="brends__column little">
+					<div class="content">
+						<div class="content__icons">
+							<img src="img/brends/content/content_icon_2.png" alt="">
+						</div>
+						<h4 class="content__title">La Boriosa</h4>
+						<div class="content__text">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+								when an unknown printer took a galley of type and scrambled it to make a type
+								specimen book. It has survived.</p>
+						</div>
+					</div>
+
+					<div class="content__image">
+						<img src="img/brends/brends_bg_3.png" alt="">
+
+					</div>
+				</div>
+
+				<div class="brends__column big">
+
+					<div class="brends__image">
+						<img src="img/brends/brends_bg_4.png" alt="">
+					</div>
+
+
+					<div class="brends__logo">
+						<a href="#">
+							<img src="img/brends/logo/brends_logo_2.png" alt="">
+						</a>
+					</div>
+				</div>
+
+
+
+
+
+
+			</div>
+			<div class="brends__row">
+				<div class="brends__column little">
+
+					<div class="brends__image">
+						<img src="img/brends/brends_bg_5.png" alt="">
+					</div>
+
+
+					<div class="brends__logo">
+						<a href="#">
+							<img src="img/brends/logo/brends_logo_3.png" alt="">
+						</a>
+					</div>
+				</div>
+
+				<div class="brends__column little">
+					<div class="content">
+						<div class="content__icons">
+							<img src="img/brends/content/content_icon_3.png" alt="">
+						</div>
+						<h4 class="content__title">retrò Bike - M. Hulot</h4>
+						<div class="content__text">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+								Lorem Ipsum has been the industry's
+								standard dummy text ever since the 1500s, when an unknown printer took a
+								galley of type and scrambled it to make a type specimen book. It has survived.</p>
+						</div>
+					</div>
+
+					<div class="content__image">
+						<img src="img/brends/brends_bg_6.png" alt="">
+
+					</div>
+				</div>
+
+				<div class="brends__column little">
+
+					<div class="brends__image">
+						<img src="img/brends/brends_bg_7.png" alt="">
+					</div>
+
+
+
+				</div>
+
+
+
+
+
+
+			</div>
+		</section>
+		<div class="reviews" id="reviews">
+			<div class="container">
+				<div class="reviews__body">
+					<div class="reviews__slider" id="reviewsSlider">
+						<div class="slick-item">
+							<div class="reviews__item">
+								<img src="img/reviews/tvitter_1.png" alt="" class="reviews__icon">
+								<h4 class="reviews__title">AOD New York @aod<span>/ 35 min</span></h4>
+								<div class="reviews__text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper
+										rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.</p>
+								</div>
+
+							</div>
+						</div>
+						<div class="slik-item">
+							<div class="reviews__item">
+								<img src="img/reviews/tvitter_1.png" alt="" class="reviews__icon">
+								<h4 class="reviews__title">AOD New York @aod<span>/ 35 min</span></h4>
+								<div class="reviews__text">
+									<p>2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi eum magnam ab odio vitae.
+										Perferendis laborum odio, labore totam molestiae necessitatibus optio, officia ut fugit
+										rerum, rem soluta pariatur omnis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+										Sed ut tellus ac nulla semper
+										rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.</p>
+								</div>
+							</div>
+						</div>
+						<div class="slick-item">
+							<div class="reviews__item">
+								<img src="img/reviews/tvitter_1.png" alt="" class="reviews__icon">
+								<h4 class="reviews__title">AOD New York @aod<span>/ 35 min</span></h4>
+								<div class="reviews__text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper
+										rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.</p>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<section class="shop" id="team">
+			<div class="shop__body">
+				<div class="shop__column">
+					<div class="shop__block">
+						<div class="shop__item block-item">
+
+							<img class="shop__photo" src="img/shop/shop_1.jpg" alt="">
+
+
+							<a class="shop__content" href="#">
+								<div class="shop__icon"><img src="img/shop/shop__icons.png" alt=""></div>
+								<div class="shop__label">
+									Shop now
+								</div>
+							</a>
+
+						</div>
+						<div class="shop__item block-item">
+
+							<img class="shop__photo" src="img/shop/shop_2.jpg" alt="">
+
+
+							<a class="shop__content" href="#">
+								<div class="shop__icon"><img src="img/shop/shop__icons.png" alt=""></div>
+								<div class="shop__label">
+									Shop now
+								</div>
+							</a>
+
+						</div>
+					</div>
+					<div class="shop__item item-row">
+
+						<img class="shop__photo" src="img/shop/shop_6.jpg" alt="">
+
+
+						<a class="shop__content" href="#">
+							<div class="shop__icon"><img src="img/shop/shop__icons.png" alt=""></div>
+							<div class="shop__label">
+								Shop now
+							</div>
+						</a>
+
+					</div>
+				</div>
+
+
+				<div class="shop__item column-big">
+
+					<img class="shop__photo" src="img/shop/shop_3.jpg" alt="">
+
+
+					<a class="shop__content" href="#">
+						<div class="shop__icon"><img src="img/shop/shop__icons.png" alt=""></div>
+						<div class="shop__label">
+							Shop now
+						</div>
+					</a>
+
+				</div>
+				<div class="shop__item column-big">
+
+					<img class="shop__photo" src="img/shop/shop_4.jpg" alt="">
+
+
+					<a class="shop__content" href="#">
+						<div class="shop__icon"><img src="img/shop/shop__icons.png" alt=""></div>
+						<div class="shop__label">
+							Shop now
+						</div>
+					</a>
+
+				</div>
+				<div class="shop__column">
+
+					<div class="shop__item item-row">
+
+						<img class="shop__photo" src="img/shop/shop_5.jpg" alt="">
+
+
+						<a class="shop__content" href="#">
+							<div class="shop__icon"><img src="img/shop/shop__icons.png" alt=""></div>
+							<div class="shop__label">
+								Shop now
+							</div>
+						</a>
+
+					</div>
+					<div class="shop__block">
+						<div class="shop__item block-item">
+
+							<img class="shop__photo" src="img/shop/shop_7.jpg" alt="">
+
+
+							<a class="shop__content" href="#">
+								<div class="shop__icon"><img src="img/shop/shop__icons.png" alt=""></div>
+								<div class="shop__label">
+									Shop now
+								</div>
+							</a>
+
+						</div>
+						<div class="shop__item block-item">
+
+							<img class="shop__photo" src="img/shop/shop_8.jpg" alt="">
+
+
+							<a class="shop__content" href="#">
+								<div class="shop__icon"><img src="img/shop/shop__icons.png" alt=""></div>
+								<div class="shop__label">
+									Shop now
+								</div>
+							</a>
+
+						</div>
+					</div>
+
+
+				</div>
+
+			</div>
+			<div class="shop__btn">
+				<div class="shop__link"><a href="#">DISCOVER THE SHOP</a></div>
+			</div>
+		</section>
+		<section class="mail" id="contact">
+			<div class="mail__icon"><img src="img/intro/logo_header.png" alt=""></div>
+			<h5 class="mail__title">Stay on the saddle!</h5>
+			<form action="" class="mail__form">
+				<input type="email" placeholder="enter your email">
+				<button type="button">go</button>
+			</form>
+
+		</section>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__row">
+					<div class="footer__colunm">
+						<div class="footer__address">
+							<h6>AOD New York</h6>
+							<p>2250 Lexington Avenue</p>
+							<p>New York, NY 10035 - info@domain.com</p>
+						</div>
+					</div>
+					<div class="footer__colunm">
+						<div class="footer__social">
+							<a href="" class="footer__twitter">
+								<img src="img/footer/f-twitter.png" alt="">
+							</a>
+							<a href="" class="footer__facebook">
+								<img src="img/footer/f-facebook.png" alt="">
+							</a>
+							<a href="" class="footer__pinterest">
+								<img src="img/footer/f-pinterest.png" alt="">
+							</a>
+
+						</div>
+					</div>
+					<div class="footer__colunm">
+						<div class="footer__dev">
+							<span>Handcrafted by</span>
+							<a href="#"><img src="img/footer/y_e_b_o_logo.png" alt=""></a>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+
+		</footer>
+
+	</div>
+	<!--wraper-->
+
+
+
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
