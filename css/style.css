@@ -523,7 +523,7 @@ body {
   overflow: hidden;
 }
 .reviews__item {
-  margin: 90px 0px 50px 0px;
+  margin: 90px 0px 10px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -563,7 +563,7 @@ body {
   font-weight: 400;
   font-style: italic;
   color: #848789;
-  margin: 0px 0px 100px 0px;
+  margin: 0px 0px 40px 0px;
 }
 
 .reviews__slider.slick-initialized {
